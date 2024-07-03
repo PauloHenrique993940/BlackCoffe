@@ -1,0 +1,582 @@
+/* Variáveis para armazenar as cores */
+:root {
+    --primeiraCor: #FFFFFF;
+    --segundaColor: #a0996c;
+    --cardBackground: #f7f1e6;
+    --colorsubTitle: #0b1d03;
+    --colorParagrafh: #FFFCF6;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+header {
+    background-image: url(/src/assets/header/HeaderBackgroudImage.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+}
+
+.header__Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 4em 8em;
+}
+
+.header__Container h3 {
+    font-family: 'Playfair Display', serif;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    color: var(--primeiraCor);
+    font-style: italic;
+}
+
+.header-Burger,
+.header_Bag {
+    width: 28px;
+    height: 28px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.header_Container_Segundario {
+    display: flex;
+    padding: 1em 8em;
+    margin-top: 100px;
+}
+
+.header__title,
+.header_Container_Segundario h1 {
+    color: var(--primeiraCor);
+    font-family: 'Playfair Display', serif;
+    font-size: 80px;
+    font-weight: 700;
+    line-height: 88px;
+    text-align: left;
+    padding-top: 30px;
+    width: 704px;
+    height: 264px;
+    top: 294px;
+    left: 80px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.header_Container_Segundario p {
+    width: 459px;
+    height: 40px;
+    left: 80px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: left;
+    color: var(--primeiraCor);
+    padding-top: 30px;
+}
+
+.header_Container_Segundario_Cicle {
+    padding-top: 0.5em;
+    display: flex;
+    gap: 30px;
+}
+
+/* Estilização main */
+main {
+    padding: 9em;
+  
+}
+
+
+
+.main-section__Container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 200px;
+}
+
+.main-section__Container-div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.main-section-Image {
+    width: 704px;
+    height: 560px;
+    top: 1020px;
+    left: 80px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.main-section__Container-div-Text {
+    padding-left: 250px;
+}
+
+.main-section__Container-div-Text h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+    color: var(--colorsubTitle);
+}
+
+.main-section__Container-div-Text p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 32px;
+    font-weight: 300;
+    line-height: 40px;
+    text-align: left;
+    width: 581px;
+    height: 160px;
+    top: 1116px;
+    left: 939px;
+    gap: 0px;
+    opacity: 0px;
+    padding-top: 40px;
+    color: var(--colorsubTitle);
+}
+
+/* Estilização seção dos cards */
+.secaoCard {
+    margin-top: 100px;
+}
+
+.Text-style-Container {
+    color: var(--segundaColor);
+    font-family: 'Playfair Display', serif;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    padding-left: 0.5em;
+}
+
+.Card_Container_Display {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.Card_Container {
+    background-color: var(--cardBackground);
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 450px;
+    transition: transform 0.2s;
+}
+
+.Card_Container:hover {
+    transform: scale(1.05);
+}
+
+.Card_Container h6 {
+    font-size: 18px;
+    margin: 10px 0;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 28px;
+    letter-spacing: 0.04em;
+    text-align: center;
+
+}
+
+.Card_Container img {
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.Card_Container div {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+.Card_Container p {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.Card_Container span {
+    font-size: 18px;
+    color: #969696;
+    width: 66px;
+    height: 28px;
+    top: 372px;
+    left: 246px;
+    gap: 0px;
+    opacity: 0px;
+
+
+}
+
+.Card_Container button {
+    background-color: black;
+    border: none;
+    border-radius: 4px;
+    color: var(--primeiraCor);
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+    width: 395px;
+    height: 76px;
+    gap: 0px;
+    border-radius: 4px;
+    opacity: 0px;
+
+}
+
+/*Seção de Serviços */
+
+.secao_Container_Serviços {
+
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    flex-direction: row;
+    width: 100%;
+    flex-wrap: wrap;
+
+}
+
+.secao_Container_Serviços-item {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Alinha o conteúdo ao centro horizontalmente */
+    text-align: center;
+    /* Alinha o texto ao centro dentro do container */
+}
+
+.secao_Container_Serviços-item img {
+    width: 66px;
+    height: 40px;
+    left: 98px;
+    gap: 0px;
+    opacity: 0px;
+
+}
+
+.item-paragrafo {
+    width: 300px;
+    height: 52px;
+    top: 64px;
+    gap: 0px;
+    opacity: 0px;
+    margin-top: 40px;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    text-align: center;
+
+
+}
+
+.container_Background {
+    background-image: url(./src/assets/MainImages/Rectangle\ 20.png);
+    width: 600px;
+    height: 560px;
+    top: 4128px;
+    opacity: 0px;
+    background-repeat: no-repeat;
+
+
+
+
+}
+
+.container_Imagen_Background {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-around;
+    gap: 20%;
+
+
+
+
+}
+
+.container_Background-item {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    padding-top: 350px;
+
+}
+
+.container_Background-item h2 {
+    color: var(--colorParagrafh);
+    font-family: Playfair Display;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    text-align: left;
+
+}
+
+.container_Background-item p {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: var(--colorParagrafh);
+    width: 451px;
+    height: 48px;
+    top: 4600px;
+    left: 120px;
+    gap: 0px;
+    opacity: 0px;
+    padding-top: 30px;
+
+
+}
+
+
+.container_Background_Primaria {
+    background-image: url(./src/assets/MainImages/Rectangle\ 20\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 600px;
+    height: 560px;
+    top: 4128px;
+}
+
+.container_Background_Primaria p {
+
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 26px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: var(--colorParagrafh);
+    width: 451px;
+    height: 48px;
+    top: 4600px;
+    left: 120px;
+    gap: 0px;
+    opacity: 0px;
+    padding-top: 30px;
+
+}
+
+/* Title-Containei_Input */
+
+.Title-Containei_Input {
+
+    font-family: Playfair Display;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 60px;
+    margin-top: 100px;
+
+
+
+}
+
+input::placeholder {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    color: #969696;
+
+
+}
+
+
+/* Configuração dos inputs */
+.Input__Container_Alinhament {
+
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: stretch;
+    padding-top: 4em;
+}
+
+.input-container {
+    position: relative;
+    width: max-content;
+
+}
+
+.input-container input {
+    padding-left: 30px;
+    /* Ajuste conforme necessário */
+}
+
+.input-container img {
+    position: absolute;
+    right: 20px;
+    /* Ajuste conforme necessário */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 20px;
+    /* Ajuste conforme necessário */
+    height: 20px;
+    /* Ajuste conforme necessário */
+}
+
+/* tamanho do primeiro input */
+.InputTamanho {
+    width: 440px;
+    height: 40px;
+}
+
+/*InputEndereco_Seach */
+.InputEndereco_Seach {
+    height: 40px;
+    width: 990px;
+}
+
+/* Configuração do mapa */
+
+.Image__Mapa {
+    width: 100%;
+    padding-top: 20px;
+}
+
+.Image__Mapa img {
+    width: 100%;
+}
+
+/* Configuração do fotter */
+footer {
+    background-color: #F7F1E6;
+    width: 100%;
+    height: 330px;
+    margin: 0;
+    padding: 0;
+
+}
+
+.footerContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+
+
+
+
+}
+
+.containerList {
+    padding: 30px;
+
+
+}
+
+.containerList h5 {
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    color: #1F1F1F;
+    width: 336px;
+    height: 28px;
+    gap: 0px;
+    opacity: 0px;
+
+
+
+}
+
+.footerContainer h3 {
+    font-family: Playfair Display;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    width: 151px;
+    height: 28px;
+    top: 56px;
+    left: 80px;
+    gap: 0px;
+    opacity: 0px;
+    padding: 30px 85px;
+
+
+}
+
+ul {
+    list-style-type: none;
+    padding-top: 10px;
+
+}
+
+li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 28px;
+    text-align: left;
+    width: 336px;
+    height: 28px;
+    top: 46px;
+    gap: 0px;
+    opacity: 0px;
+
+
+}
+
+.FooterParagrafo {
+    text-align: center;
+    padding-top: 30px;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 28px;
+    text-align: left;
+
+}
+
+.FooterParagrafo img {
+    width: 159.8px;
+    height: 16px;
+    left: 800px;
+    gap: 0px;
+    opacity: 0px;
+
+
+
+}
+
+.rodape-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
