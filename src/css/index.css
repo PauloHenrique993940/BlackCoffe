@@ -378,9 +378,11 @@ main {
   opacity: 0px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end; /* Alinha os itens na parte inferior */
+  justify-content: flex-end;
+  /* Alinha os itens na parte inferior */
   padding-left: 40px;
-  padding-bottom: 40px; /* Adiciona um espaçamento na parte inferior */
+  padding-bottom: 40px;
+  /* Adiciona um espaçamento na parte inferior */
 
 }
 
@@ -395,7 +397,7 @@ main {
   line-height: 60px;
   text-align: left;
   color: var(--colorParagrafh);
-  
+
 
 
 }
@@ -431,12 +433,14 @@ main {
   background-size: cover;
   display: flex;
   flex-direction: column;
-  justify-content: flex-end; /* Alinha os itens na parte inferior */
+  justify-content: flex-end;
+  /* Alinha os itens na parte inferior */
   padding-left: 40px;
-  padding-bottom: 40px; /* Adiciona um espaçamento na parte inferior */
+  padding-bottom: 40px;
+  /* Adiciona um espaçamento na parte inferior */
 }
 
-.Imagen_Segundaria h1{
+.Imagen_Segundaria h1 {
   width: 446px;
   height: 60px;
   gap: 0px;
@@ -449,7 +453,7 @@ main {
   color: var(--colorParagrafh);
 }
 
-.Imagen_Segundaria p{
+.Imagen_Segundaria p {
   font-family: Open Sans;
   font-size: 20px;
   font-weight: 300;
@@ -463,4 +467,227 @@ main {
   gap: 0px;
   opacity: 0px;
   color: var(--colorParagrafh);
+}
+
+
+/* Seção do map e input */
+.section_input_mapa {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  margin-top: 80px;
+}
+
+.section_input_mapa h2 {
+  width: 470px;
+  height: 60px;
+  top: 4888px;
+  left: 80px;
+  gap: 0px;
+  opacity: 0px;
+
+  font-family: Playfair Display;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 60px;
+  text-align: left;
+  color: var(--colorsubTitle);
+
+}
+
+
+.input-container {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+.input-wrapper {
+  position: relative;
+  margin-bottom: 20px;
+}
+
+input {
+  width: 100%;
+  padding: 10px 40px 10px 10px;
+  /* Espaço para a imagem à direita */
+  font-size: 16px;
+  border-radius: 5px;
+  outline: none;
+  box-sizing: border-box;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+
+
+
+.icon {
+  position: absolute;
+  right: 30px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+  /* Para que a imagem não interfira com o clique no input */
+}
+
+/* Estilização específica para cada input */
+.input-selector {
+  width: 459px;
+  height: 50px;
+  top: 4996px;
+  left: 80px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: left;
+  color: var(--span);
+
+
+
+}
+
+.input-pesquisa {
+  width: 1200px;
+  height: 50px;
+  top: 4996px;
+  left: 571px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: left;
+  color: var(--span);
+
+}
+
+.section_mapa img {
+  width: 100%;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: var(--cardBackground);
+  height: 306px;
+  margin-top: 80px;
+}
+
+.secao_fotter_links {
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_link {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  align-content: flex-start;
+
+}
+
+
+.footer_link h4 {
+  font-family: Playfair Display;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  width: 151px;
+  height: 28px;
+  top: 56px;
+  left: 80px;
+  gap: 0px;
+  opacity: 0px;
+  color: #0b1d03;
+
+}
+
+.footer_link span {
+  font-family: Playfair Display;
+  font-size: 28px;
+  font-style: italic;
+  font-weight: 700;
+  line-height: 28px;
+  text-align: left;
+  color: #0b1d03;
+
+}
+
+ul {
+  list-style-type: none;
+
+
+}
+
+ul li h5 {
+  text-transform: uppercase;
+  width: 140px;
+  height: 28px;
+  gap: 0px;
+  opacity: 0px;
+  font-size: px;
+  font-family: Open Sans;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: left;
+
+
+}
+
+li {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: left;
+
+}
+
+.footer_logo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.container_logo p {
+  font-family: Open Sans;
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 28px;
+  text-align: left;
+
+}
+
+.container_logo img {
+  width: 159.8px;
+  height: 19.24px;
+  top: 27px;
+  left: 800px;
+  gap: 0px;
+  opacity: 0px;
+
+
 }
