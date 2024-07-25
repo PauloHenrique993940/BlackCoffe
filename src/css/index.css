@@ -30,7 +30,7 @@ header {
   height: 100vh;
   padding: 10px 50px;
   color: #1f1f1f80;
-  box-sizing: border-box; /* Garantir que o padding não exceda a largura total */
+  
   
 }
 
