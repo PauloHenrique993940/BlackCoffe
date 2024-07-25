@@ -11,12 +11,14 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
 }
 
 body {
-  margin: 0;
   color: var(--colorsubTitle);
-  padding: 0;
+  
 }
 
 header {
@@ -123,7 +125,7 @@ header {
 /* estilização main */
 
 main {
-  width: 100%;
+  max-width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -477,6 +479,7 @@ main {
   flex-direction: column;
   align-items: left;
   margin-top: 80px;
+  background: #ffffff;
 }
 
 .section_input_mapa h2 {
