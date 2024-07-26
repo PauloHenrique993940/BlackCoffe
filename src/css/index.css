@@ -11,19 +11,16 @@
 
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
-*{
-  margin: 0px;
-  padding: 0px;
-}
 
 
 
 body {
   margin: 0;
   color: var(--colorsubTitle);
-  padding: 0;
 }
 
 header {
@@ -33,7 +30,7 @@ header {
   background-repeat: no-repeat;
   max-width: 100%;
   height: 100vh;
-  padding: 10px 50px;
+  padding: 40px 100px;
   color: #1f1f1f80;
   
   
@@ -87,11 +84,13 @@ header {
   flex-direction: column;
   width: 100%;
   align-items: left;
+  margin-top: 120px;
   /* Opcional: Alinhar os itens ao centro */
 }
 
 .imagen_barra {
-  margin-top: 150px;
+  margin-top: 10px;
+  width: 130px;
 }
 
 .Container_header h1 {
@@ -107,6 +106,7 @@ header {
   left: 80px;
   gap: 0px;
   opacity: 0px;
+  margin-top: 50px;
 }
 
 .Container_header p {
@@ -122,11 +122,13 @@ header {
   gap: 0px;
   opacity: 0px;
   color: var(--primeiraCor);
+  margin-top: 30px;
 }
 
 .header_Container_Segundario_Cicle {
   display: flex;
   gap: 20px;
+  margin-top: 120px;
 }
 
 /* estilização main */
@@ -136,7 +138,6 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  box-sizing: border-box;
 }
 
 .Destaques {
