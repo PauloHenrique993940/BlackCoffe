@@ -30,7 +30,7 @@ header {
   background-repeat: no-repeat;
   max-width: 100%;
   height: 100vh;
-  padding: 40px 100px;
+  padding: 40px 160px;
   color: #1f1f1f80;
   
   
@@ -141,15 +141,15 @@ main {
 }
 
 .Destaques {
-  width: 95%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-top: 80px;
+  margin-top: 110px;
 }
 
 .destaque {
-  width: 100%;
+  width: 85%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -178,6 +178,7 @@ main {
   line-height: 60px;
   text-align: left;
   color: var(--colorsubTitle);
+
 }
 
 .destaque p {
@@ -192,18 +193,20 @@ main {
   left: 939px;
   gap: 0px;
   opacity: 0px;
+  margin-top: 50px;
 }
 
 /* section Container_Produtos */
 .Container_Produtos {
-  width: 95%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: left;
   margin-top: 80px;
 }
 
-.Container_Produtos h2 {
+
+.title-card_h2{
   font-family: Playfair Display;
   font-size: 56px;
   font-weight: 700;
@@ -216,20 +219,23 @@ main {
   gap: 0px;
   opacity: 0px;
   color: var(--segundaColor);
+  margin-left: 140px;
 }
 
 .Card_Cortainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 100%;
+  margin-top: 100px;
 }
 
 .card {
   background: var(--cardBackground);
   display: flex;
   flex-direction: column;
-  width: 500px;
+  align-items: center;
+  width: 430px;
   height: 560px;
   top: 2592px;
   left: 80px;
@@ -238,6 +244,7 @@ main {
   margin-bottom: 40px;
   align-items: center;
   border-radius: 8px;
+  padding: 40px;
 }
 
 .card h4 {
@@ -254,15 +261,16 @@ main {
   gap: 0px;
   opacity: 0px;
   color: var(--colorsubTitle);
+  
 }
 
 .card img {
-  width: 172px;
-  height: 216px;
+  height: 300px;
   top: 116px;
   left: 144px;
   gap: 0px;
   opacity: 0px;
+  padding-top: 40px;
 }
 
 .card p {
@@ -272,6 +280,11 @@ main {
   line-height: 40px;
   text-align: left;
   color: var(--colorsubTitle);
+  text-align: center;
+}
+
+.paragrafo_card{
+  margin: 40px;
 }
 
 .card span {
@@ -282,6 +295,7 @@ main {
   letter-spacing: 0.04em;
   text-align: left;
   color: var(--span);
+  
 }
 
 .card button {
@@ -300,6 +314,7 @@ main {
   line-height: 28px;
   text-align: center;
   color: var(--primeiraCor);
+  
 
 }
 
@@ -314,7 +329,7 @@ main {
 .servicos {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
   gap: 30px;
   margin-top: 80px;
@@ -362,7 +377,7 @@ main {
 
 /*secao imagen */
 .Secao__imagen {
-  width: 95%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -374,14 +389,15 @@ main {
   display: flex;
   width: 100%;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
+  gap: 80px;
 }
 
 .Imagen_primaria {
   background-image: url(/src/assets/MainImages/Rectangle\ 20.png);
   background-repeat: no-repeat;
   background-size: cover;
-  width: 804px;
+  width:  750px;
   height: 560px;
   top: 4128px;
   left: 80px;
@@ -434,7 +450,7 @@ main {
 
 .Imagen_Segundaria {
   background-image: url(/src/assets/MainImages/Rectangle\ 20\ \(1\).png);
-  width: 804px;
+  width: 750px;
   height: 560px;
   top: 4128px;
   left: 816px;
@@ -483,7 +499,7 @@ main {
 
 /* Seção do map e input */
 .section_input_mapa {
-  width: 95%;
+  width: 83%;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -549,7 +565,7 @@ input {
 
 /* Estilização específica para cada input */
 .input-selector {
-  width: 459px;
+  width: 465px;
   height: 50px;
   top: 4996px;
   left: 80px;
@@ -567,7 +583,7 @@ input {
 }
 
 .input-pesquisa {
-  width: 1200px;
+  width: 1000px;
   height: 50px;
   top: 4996px;
   left: 571px;
@@ -593,13 +609,14 @@ footer {
   align-items: center;
   background: var(--cardBackground);
   height: 306px;
-  margin-top: 80px;
+  margin-top: 100px;
 }
 
 .secao_fotter_links {
-  width: 95%;
+  width: 83%;
   display: flex;
   flex-direction: column;
+  padding-top: 20px;
 }
 
 .footer_link {
@@ -667,15 +684,17 @@ li {
   font-weight: 300;
   line-height: 28px;
   text-align: left;
+  margin-bottom: 10px;
 
 }
 
 .footer_logo {
-  width: 100%;
+  width: 85%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  padding-top: 80px;
 }
 
 .container_logo {
