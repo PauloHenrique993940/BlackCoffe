@@ -401,7 +401,7 @@ background-size: cover;
   background-image: url(/src/assets/MainImages/Rectangle\ 20.png);
   background-repeat: no-repeat;
   background-size: cover;
-  width:  750px;
+  width:  730px;
   height: 560px;
   top: 4128px;
   left: 80px;
@@ -453,7 +453,7 @@ background-size: cover;
 
 .Imagen_Segundaria {
   background-image: url(/src/assets/MainImages/Rectangle\ 20\ \(1\).png);
-  width: 750px;
+  width: 730px;
   height: 560px;
   top: 4128px;
   left: 816px;
@@ -501,7 +501,7 @@ background-size: cover;
 
 /* Seção do map e input */
 .section_input_mapa {
-  width: 83%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -586,7 +586,7 @@ input {
 }
 
 .input-pesquisa {
-  width: 1000px;
+  width: 850px;
   height: 50px;
   top: 4996px;
   left: 571px;
