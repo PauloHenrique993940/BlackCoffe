@@ -21,6 +21,8 @@
 body {
   margin: 0;
   color: var(--colorsubTitle);
+  background: #ffffff;
+  
 }
 
 header {
@@ -28,10 +30,10 @@ header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  max-width: 100%;
-  height: 100vh;
+  width:100%;
+  height: 900px;
   padding: 40px 160px;
-  color: #1f1f1f80;
+  background-color: #ffffff;
   
   
 }
@@ -138,6 +140,7 @@ main {
   display: flex;
   flex-direction: column;
   align-items: center;
+
 }
 
 .Destaques {
@@ -219,7 +222,7 @@ main {
   gap: 0px;
   opacity: 0px;
   color: var(--segundaColor);
-  margin-left: 140px;
+  margin-left: 160px;
 }
 
 .Card_Cortainer {
@@ -323,14 +326,12 @@ main {
   width: 100%;
   display: flex;
   flex-direction: row;
-
-}
+  background: #FFFCF6;}
 
 .servicos {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 100%;
   gap: 30px;
   margin-top: 80px;
   width: 1438px;
@@ -382,6 +383,7 @@ main {
   flex-direction: column;
   align-items: left;
   margin-top: 80px;
+  background: #FFFCF6;
 
 }
 
@@ -409,7 +411,6 @@ main {
   /* Alinha os itens na parte inferior */
   padding-left: 40px;
   padding-bottom: 40px;
-  /* Adiciona um espaçamento na parte inferior */
 
 }
 
@@ -464,7 +465,6 @@ main {
   /* Alinha os itens na parte inferior */
   padding-left: 40px;
   padding-bottom: 40px;
-  /* Adiciona um espaçamento na parte inferior */
 }
 
 .Imagen_Segundaria h1 {
@@ -505,6 +505,7 @@ main {
   align-items: left;
   margin-top: 80px;
   background: #ffffff;
+  margin-bottom: 30px;
 }
 
 .section_input_mapa h2 {
@@ -609,7 +610,6 @@ footer {
   align-items: center;
   background: var(--cardBackground);
   height: 320px;
-  margin-top: 90px;
 }
 
 .secao_fotter_links {
