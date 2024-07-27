@@ -615,7 +615,7 @@ footer {
 }
 
 .secao_fotter_links {
-  width: 83%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   padding-top: 20px;
