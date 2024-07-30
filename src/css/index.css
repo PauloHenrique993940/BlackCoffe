@@ -18,17 +18,6 @@
 }
 
 
-
-
-body {
-  margin: 0;
-  color: var(--colorsubTitle);
-  
-
-  
-  
-}
-
 header {
   background-image: url(/src/assets/header/HeaderBackgroudImage.png);
   background-size: cover;
@@ -36,9 +25,10 @@ header {
   background-repeat: no-repeat;
   width:100%;
   height: 900px;
-  padding: 30px 70px;
+  padding: 30px 130px;
   background-color: #ffffff;
   margin: 0;
+
   
   
 }
@@ -148,18 +138,19 @@ main {
 }
 
 .Destaques {
-  width: 100%;
+  width: 85%;
   display: flex;
   flex-direction: column;
   align-items: center;
   /*background-color: var(--colorParagrafh);*/
   background: var(--backgroundSection);
   padding-top: 140px;
+  border: 1px solid red;
   
 }
 
 .destaque {
-  width: 85%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -211,11 +202,12 @@ main {
 
 /* section Container_Produtos */
 .Container_Produtos {
-  width: 100%;
+  width: 85%;
   display: flex;
   flex-direction: column;
   /*background-color: var(--colorParagrafh);*/
   background: var(--backgroundSection);
+  border: 1px solid black;
   
 }
 
@@ -233,14 +225,13 @@ main {
   gap: 0px;
   opacity: 0px;
   color: var(--segundaColor);
-  margin-left: 150px;
   
 }
 
 .Card_Cortainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   width: 100%;
   padding-top: 40px;
 
@@ -337,12 +328,13 @@ background-size: cover;
 
 /* seçao container_serviços */
 .container_serviços {
-  width: 100%;
+  width: 85%;
   display: flex;
   align-items: center;
   flex-direction: row;
   justify-content: center;
   background: var(--backgroundSection);
+  border: 1px solid red;
 }
 .servicos {
   width: 100%;
@@ -396,12 +388,13 @@ background-size: cover;
 
 /*secao imagen */
 .Secao__imagen {
-  width: 100%;
+  width: 85%;
   display: flex;
   flex-direction: column;
   /*background: #FFFCF6;*/
   background: var(--backgroundSection);
   padding-top: 30px;
+  border: 1px solid red;
 
 }
 
@@ -409,14 +402,14 @@ background-size: cover;
   display: flex;
   width: 100%;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .Imagen_primaria {
   background-image: url(/src/assets/MainImages/Rectangle\ 20.png);
   background-repeat: no-repeat;
   background-size: cover;
-  width:  730px;
+  width:  704px;
   height: 560px;
   top: 4128px;
   left: 80px;
@@ -428,6 +421,7 @@ background-size: cover;
   /* Alinha os itens na parte inferior */
   padding-left: 40px;
   padding-bottom: 40px;
+  
 
 }
 
@@ -468,7 +462,7 @@ background-size: cover;
 
 .Imagen_Segundaria {
   background-image: url(/src/assets/MainImages/Rectangle\ 20\ \(1\).png);
-  width: 730px;
+  width: 704px;
   height: 560px;
   top: 4128px;
   left: 816px;
@@ -516,13 +510,15 @@ background-size: cover;
 
 /* Seção do map e input */
 .section_input_mapa {
-  width: 100%;
+  width: 85%;
   display: flex;
   flex-direction: column;
   align-items: left;
   background: #ffffff;
+  border: 1px solid red;
 
   padding-top: 100px;
+
 }
 
 .section_input_mapa h2 {
@@ -538,7 +534,8 @@ background-size: cover;
   line-height: 60px;
   text-align: left;
   color: var(--colorsubTitle);
-  padding-left: 150px;
+
+  
   
 
 }
@@ -550,7 +547,7 @@ background-size: cover;
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding-top: 50px;
   gap: 40px;
 
@@ -560,6 +557,8 @@ background-size: cover;
   position: relative;
   margin-bottom: 20px;
 }
+
+
 
 input {
   width: 100%;
@@ -606,7 +605,7 @@ input {
 }
 
 .input-pesquisa {
-  width: 949px;
+  width: 900px;
   height: 50px;
   top: 4996px;
   left: 571px;
@@ -621,14 +620,9 @@ input {
 
 }
 
-.section_mapa  {
-  display: flex;
-  justify-content: center;
-  padding-bottom: 30px;
-}
+.section-Mapa{
+  width: 100%;
 
-.section_mapa img{
-  width: 1600px;
 }
 
 footer {
@@ -638,6 +632,7 @@ footer {
   align-items: center;
   background: var(--cardBackground);
   height: 320px;
+  margin-top: 30px;
 
 }
 
@@ -645,14 +640,13 @@ footer {
   width: 85%;
   display: flex;
   flex-direction: column;
-  padding-top: 20px;
+  padding-top: 30px
 }
 
 .footer_link {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
-  gap: 310px;
+  justify-content: space-between;
   
 
 }
