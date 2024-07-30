@@ -145,7 +145,7 @@ main {
   /*background-color: var(--colorParagrafh);*/
   background: var(--backgroundSection);
   padding-top: 140px;
-  border: 1px solid red;
+  
   
 }
 
@@ -154,12 +154,10 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 200px;
+  margin-bottom: 300px;
 }
 
-.destaqueText{
-  padding-left: 90px;
-}
+
 
 .destaque img {
   width: 704px;
