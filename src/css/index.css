@@ -138,7 +138,7 @@ main {
 }
 
 .Destaques {
-  width: 85%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -150,7 +150,7 @@ main {
 }
 
 .destaque {
-  width: 100%;
+  width: 85%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -200,12 +200,12 @@ main {
 
 /* section Container_Produtos */
 .Container_Produtos {
-  width: 85%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   /*background-color: var(--colorParagrafh);*/
   background: var(--backgroundSection);
-  
+
   
 }
 
@@ -219,7 +219,7 @@ main {
   width: 581px;
   height: 60px;
   top: 2468px;
-  left: 80px;
+  width: 700px;
   gap: 0px;
   opacity: 0px;
   color: var(--segundaColor);
@@ -229,9 +229,10 @@ main {
 .Card_Cortainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  padding-top: 60px;
   width: 100%;
-  padding-top: 40px;
+  align-items: center;
 
 }
 
@@ -326,7 +327,7 @@ background-size: cover;
 
 /* seçao container_serviços */
 .container_serviços {
-  width: 85%;
+  width: 100%;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -335,7 +336,7 @@ background-size: cover;
   
 }
 .servicos {
-  width: 100%;
+  width: 85%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -386,7 +387,7 @@ background-size: cover;
 
 /*secao imagen */
 .Secao__imagen {
-  width: 85%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   /*background: #FFFCF6;*/
@@ -400,7 +401,7 @@ background-size: cover;
   display: flex;
   width: 100%;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .Imagen_primaria {
@@ -508,7 +509,7 @@ background-size: cover;
 
 /* Seção do map e input */
 .section_input_mapa {
-  width: 85%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: left;
@@ -532,6 +533,7 @@ background-size: cover;
   line-height: 60px;
   text-align: left;
   color: var(--colorsubTitle);
+  padding-left: 160px;
 
   
   
@@ -545,9 +547,10 @@ background-size: cover;
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   padding-top: 50px;
   gap: 40px;
+  align-items: center;
 
 }
 
@@ -556,7 +559,9 @@ background-size: cover;
   margin-bottom: 20px;
 }
 
-
+.subtitle{
+  padding-left: 160px
+}
 
 input {
   width: 100%;
@@ -618,8 +623,14 @@ input {
 
 }
 
+.mapa_container{
+  width: 100;
+  justify-content: center;
+  display: flex;
+}
+
 .section-Mapa{
-  width: 100%;
+  width: 82%;
 
 }
 
