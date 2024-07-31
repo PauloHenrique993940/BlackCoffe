@@ -223,6 +223,7 @@ main {
   gap: 0px;
   opacity: 0px;
   color: var(--segundaColor);
+  padding-left: 100px;
   
 }
 
