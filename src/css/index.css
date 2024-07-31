@@ -640,22 +640,24 @@ footer {
   flex-direction: column;
   align-items: center;
   background: var(--cardBackground);
-  height: 320px;
+  height: 325px;
   margin-top: 30px;
 
 }
 
 .secao_fotter_links {
-  width: 85%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   padding-top: 30px
 }
 
 .footer_link {
+  width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+
   
 
 }
@@ -732,7 +734,6 @@ li {
 .container_logo {
   display: flex;
   align-items: center;
-  gap: 10px;
 }
 
 .container_logo p {
@@ -754,3 +755,7 @@ li {
 
 
 }
+
+
+
+
