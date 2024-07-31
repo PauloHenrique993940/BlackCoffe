@@ -550,7 +550,7 @@ background-size: cover;
   flex-direction: row;
   justify-content: space-evenly;
   padding-top: 50px;
-  gap: 40px;
+  gap: 50px;
   align-items: center;
 
 }
