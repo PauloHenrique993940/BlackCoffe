@@ -25,7 +25,9 @@ header {
   background-repeat: no-repeat;
   width:100%;
   height: 900px;
-  padding: 30px 130px;
+  padding-top: 30px;
+  padding-left: 80px;
+  padding-right: 80px;
   background-color: #ffffff;
   margin: 0;
 
@@ -137,27 +139,66 @@ main {
   align-items: center;
 }
 
+body{
+  background: var(--backgroundSection); 
+  
+}
+
+.Destaques{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.Container_Produtos{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+.container_serviços{
+  padding-left: 80px;
+  padding-right: 80px;
+}
+.Secao__imagen{
+  padding-left: 80px;
+  padding-right: 80px;
+
+}
+
+.section_input_mapa{
+  padding-left: 80px;
+  padding-right: 80px;
+
+}
+
+.secao_fotter_links{
+  padding-left: 80px;
+  padding-right: 80px;
+
+}
+
 .Destaques {
   width: 100%;
   display: flex;
   flex-direction: column;
-  align-items: center;
   /*background-color: var(--colorParagrafh);*/
-  background: var(--backgroundSection);
-  padding-top: 140px;
+  /* background: var(--backgroundSection); */
+  padding-top: 100px;
+
+
   
   
 }
 
 .destaque {
-  width: 85%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin-bottom: 300px;
+  margin-bottom: 200px;
 }
 
-
+.destaqueText{
+  padding-left: 40px;
+}
 
 .destaque img {
   width: 704px;
@@ -204,7 +245,7 @@ main {
   display: flex;
   flex-direction: column;
   /*background-color: var(--colorParagrafh);*/
-  background: var(--backgroundSection);
+
 
   
 }
@@ -223,17 +264,15 @@ main {
   gap: 0px;
   opacity: 0px;
   color: var(--segundaColor);
-  padding-left: 100px;
   
 }
 
 .Card_Cortainer {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding-top: 60px;
   width: 100%;
-  align-items: center;
 
 }
 
@@ -252,7 +291,7 @@ main {
   align-items: center;
   border-radius: 8px;
   padding: 40px;
-background-size: cover;
+  background-size: cover;
 }
 
 .card h4 {
@@ -334,6 +373,9 @@ background-size: cover;
   flex-direction: row;
   justify-content: center;
   background: var(--backgroundSection);
+
+  flex-wrap: wrap;
+  height: 904;
   
 }
 .servicos {
@@ -392,8 +434,10 @@ background-size: cover;
   display: flex;
   flex-direction: column;
   /*background: #FFFCF6;*/
-  background: var(--backgroundSection);
-  padding-top: 30px;
+  /*background: var(--backgroundSection);*/
+  background: red;
+  padding-top: 40px;
+  
   
 
 }
@@ -402,7 +446,7 @@ background-size: cover;
   display: flex;
   width: 100%;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 .Imagen_primaria {
@@ -515,6 +559,8 @@ background-size: cover;
   flex-direction: column;
   align-items: left;
   background: #ffffff;
+  padding-bottom: 40px;
+  
   
 
   padding-top: 100px;
@@ -534,7 +580,7 @@ background-size: cover;
   line-height: 60px;
   text-align: left;
   color: var(--colorsubTitle);
-  padding-left: 100px;
+  
 
   
   
@@ -548,7 +594,7 @@ background-size: cover;
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   padding-top: 50px;
   gap: 50px;
   align-items: center;
@@ -625,13 +671,13 @@ input {
 }
 
 .mapa_container{
-  width: 100;
+  width: 100%;
   justify-content: center;
   display: flex;
 }
 
 .section-Mapa{
-  width: 88%;
+  width: 100%;
 
 }
 
@@ -641,7 +687,6 @@ footer {
   flex-direction: column;
   align-items: center;
   background: var(--cardBackground);
-  height: 325px;
   margin-top: 30px;
 
 }
@@ -657,7 +702,7 @@ footer {
   width: 100%;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
 
   
 
@@ -724,12 +769,13 @@ li {
 }
 
 .footer_logo {
-  width: 85%;
+  width: 100%;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
   padding-top: 80px;
+  margin: 0px;
 }
 
 .container_logo {
@@ -757,6 +803,10 @@ li {
 
 }
 
+body, footer {
+  margin: 0;
+  padding: 0;
+}
 
 
 
