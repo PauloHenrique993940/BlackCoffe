@@ -162,6 +162,10 @@ body{
   padding-right: 80px;
 
 }
+.Imagen_Container{
+  padding-left: 80px;
+  padding-right: 80px;
+}
 
 .section_input_mapa{
   padding-left: 80px;
@@ -370,28 +374,26 @@ body{
   width: 100%;
   display: flex;
   align-items: center;
-  flex-direction: row;
-  justify-content: center;
+  flex-direction: column;
   background: var(--backgroundSection);
-
-
+  box-sizing: border-box;
   flex-wrap: wrap;
   height: 904;
   
+
+  
 }
 .servicos {
-  width: 85%;
+  width: 100%;
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 30px;
   margin-top: 80px;
-  width: 1438px;
   height: 120px;
-  top: 3944px;
-  left: 80px;
-  opacity: 0px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 20px;
 
+  
+  
 
 
 }
@@ -400,6 +402,7 @@ body{
   display: flex;
   flex-direction: column;
   align-items: center;
+
 
 }
 
@@ -410,35 +413,40 @@ body{
   gap: 0px;
   opacity: 0px;
 
-}
 
+}
 
 .servicos_items p {
   font-family: Open Sans;
   font-size: 20px;
   font-weight: 300;
-  line-height: 26px;
+  line-height: 22px;
   letter-spacing: 0.04em;
-  text-align: center;
   color: var(--colorsubTitle);
-  width: 262px;
-  height: 52px;
+  width: 200px;
+  height: 40px;
   top: 64px;
-  gap: 0px;
   opacity: 0px;
+  padding-top: 20px;
+  text-align:center;
 
 }
 
 /*secao imagen */
-
+.Imagen_Container{
+  width: 100%;
+  background: var(--backgroundSection);
+}
 
 .Container {
   display: flex;
   width: 100%;
   flex-direction: row;
-  justify-content: space-between;
-  background: var(--backgroundSection);
-  padding-bottom: 40px;
+  justify-content:space-between;
+  
+  padding-top: 40px;
+  
+  
 }
 
 .Imagen_primaria {
@@ -552,8 +560,6 @@ body{
   align-items: left;
   background: #ffffff;
   padding-bottom: 40px;
-  
-  
 
   padding-top: 100px;
 
@@ -588,7 +594,6 @@ body{
   flex-direction: row;
   justify-content: space-between;
   padding-top: 50px;
-  gap: 50px;
   align-items: center;
 
 }
@@ -610,7 +615,6 @@ input {
   border-radius: 5px;
   outline: none;
   box-sizing: border-box;
-  transition: border-color 0.3s, box-shadow 0.3s;
 }
 
 
@@ -618,7 +622,7 @@ input {
 
 .icon {
   position: absolute;
-  right: 30px;
+  right: 5px;
   top: 50%;
   transform: translateY(-50%);
   width: 20px;
@@ -628,7 +632,7 @@ input {
 }
 
 /* Estilização específica para cada input */
-.input-selector {
+select {
   width: 459px;
   height: 50px;
   top: 4996px;
@@ -641,6 +645,9 @@ input {
   line-height: 28px;
   text-align: left;
   color: var(--span);
+  border: 2px solid black;
+  border-radius: 5px;
+  padding-left: 10px;
 
 
 
@@ -659,6 +666,7 @@ input {
   line-height: 28px;
   text-align: left;
   color: var(--span);
+  border: 2px solid black;
 
 }
 
