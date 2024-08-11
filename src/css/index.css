@@ -389,8 +389,7 @@ body{
   margin-top: 80px;
   height: 120px;
   flex-direction: row;
-  justify-content: space-between;
-  gap: 20px;
+  justify-content: space-around;
 
   
   
@@ -436,6 +435,8 @@ body{
 .Imagen_Container{
   width: 100%;
   background: var(--backgroundSection);
+  margin-top: 30px;
+
 }
 
 .Container {
@@ -443,7 +444,7 @@ body{
   width: 100%;
   flex-direction: row;
   justify-content:space-between;
-  
+  margin-bottom: 40px;
   padding-top: 40px;
   
   
@@ -464,7 +465,7 @@ body{
   justify-content: flex-end;
   /* Alinha os itens na parte inferior */
   padding-left: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
   
 
 }
@@ -500,6 +501,7 @@ body{
   gap: 0px;
   opacity: 0px;
   color: var(--colorParagrafh);
+  padding-top: 20px;
 
 
 }
@@ -519,7 +521,7 @@ body{
   justify-content: flex-end;
   /* Alinha os itens na parte inferior */
   padding-left: 40px;
-  padding-bottom: 40px;
+  padding-bottom: 80px;
 }
 
 .Imagen_Segundaria h1 {
@@ -549,6 +551,7 @@ body{
   gap: 0px;
   opacity: 0px;
   color: var(--colorParagrafh);
+  padding-top: 20px;
 }
 
 
@@ -593,7 +596,7 @@ body{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding-top: 50px;
+  padding-top: 40px;
   align-items: center;
 
 }
